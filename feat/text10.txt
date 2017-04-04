@@ -1,0 +1,672 @@
+A typical physics course concerns itself with a variety of broad topics. One such topic is mechanics - the study of the motion of objects. The first six units of The Physics Classroom tutorial will involve an investigation into the physics of motion. As we focus on the language, principles, and laws that describe and explain the motion of objects, your efforts should center on internalizing the meaning of the information. Avoid memorizing the information; and avoid abstracting the information from the physical world that it describes and explains. Rather, contemplate the information, thinking about its meaning and its applications.
+
+Kinematics is the science of describing the motion of objects using words, diagrams, numbers, graphs, and equations. Kinematics is a branch of mechanics. The goal of any study of kinematics is to develop sophisticated mental models that serve to describe (and ultimately, explain) the motion of real-world objects.
+
+In this lesson, we will investigate the words used to describe the motion of objects. That is, we will focus on the language of kinematics. The hope is to gain a comfortable foundation with the language that is used throughout the study of mechanics. We will study such terms as scalars, vectors, distance, displacement, speed, velocity and acceleration. These words are used with regularity to describe the motion of objects. Your goal should be to become very familiar with their meaning.
+
+Physics is a mathematical science. The underlying concepts and principles have a mathematical basis. Throughout the course of our study of physics, we will encounter a variety of concepts that have a mathematical basis associated with them. While our emphasis will often be upon the conceptual nature of physics, we will give considerable and persistent attention to its mathematical aspect.
+
+The motion of objects can be described by words. Even a person without a background in physics has a collection of words that can be used to describe moving objects. Words and phrases such as going fast, stopped, slowing down, speeding up, and turning provide a sufficient vocabulary for describing the motion of objects. In physics, we use these words and many more. We will be expanding upon this vocabulary list with words such as distance, displacement, speed, velocity, and acceleration. As we will soon see, these words are associated with mathematical quantities that have strict definitions. The mathematical quantities that are used to describe the motion of objects can be divided into two categories. The quantity is either a vector or a scalar. These two categories can be distinguished from one another by their distinct definitions:
+
+Scalars are quantities that are fully described by a magnitude (or numerical value) alone.
+Vectors are quantities that are fully described by both a magnitude and a direction.
+The remainder of this lesson will focus on several examples of vector and scalar quantities (distance, displacement, speed, velocity, and acceleration). As you proceed through the lesson, give careful attention to the vector and scalar nature of each quantity. As we proceed through other units at The Physics Classroom Tutorial and become introduced to new mathematical quantities, the discussion will often begin by identifying the new quantity as being either a vector or a scalar.
+
+Distance and displacement are two quantities that may seem to mean the same thing yet have distinctly different definitions and meanings.
+
+Distance is a scalar quantity that refers to "how much ground an object has covered" during its motion.
+Displacement is a vector quantity that refers to "how far out of place an object is"; it is the object's overall change in position.
+To test your understanding of this distinction, consider the motion depicted in the diagram below. A physics teacher walks 4 meters East, 2 meters South, 4 meters West, and finally 2 meters North.
+
+
+Even though the physics teacher has walked a total distance of 12 meters, her displacement is 0 meters. During the course of her motion, she has "covered 12 meters of ground" (distance = 12 m). Yet when she is finished walking, she is not "out of place" - i.e., there is no displacement for her motion (displacement = 0 m). Displacement, being a vector quantity, must give attention to direction. The 4 meters east cancels the 4 meters west; and the 2 meters south cancels the 2 meters north. Vector quantities such as displacement are direction aware. Scalar quantities such as distance are ignorant of direction. In determining the overall distance traveled by the physics teachers, the various directions of motion can be ignored.
+
+Now consider another example. The diagram below shows the position of a cross-country skier at various times. At each of the indicated times, the skier turns around and reverses the direction of travel. In other words, the skier moves from A to B to C to D.
+
+Just as distance and displacement have distinctly different meanings (despite their similarities), so do speed and velocity. Speed is a scalar quantity that refers to "how fast an object is moving." Speed can be thought of as the rate at which an object covers distance. A fast-moving object has a high speed and covers a relatively large distance in a short amount of time. Contrast this to a slow-moving object that has a low speed; it covers a relatively small amount of distance in the same amount of time. An object with no movement at all has a zero speed.
+
+ 
+
+Velocity as a Vector Quantity
+Velocity is a vector quantity that refers to "the rate at which an object changes its position." Imagine a person moving rapidly - one step forward and one step back - always returning to the original starting position. While this might result in a frenzy of activity, it would result in a zero velocity. Because the person always returns to the original position, the motion would never result in a change in position. Since velocity is defined as the rate at which the position changes, this motion results in zero velocity. If a person in motion wishes to maximize their velocity, then that person must make every effort to maximize the amount that they are displaced from their original position. Every step must go into moving that person further from where he or she started. For certain, the person should never change directions and begin to return to the starting position.
+
+Velocity is a vector quantity. As such, velocity is direction aware. When evaluating the velocity of an object, one must keep track of direction. It would not be enough to say that an object has a velocity of 55 mi/hr. One must include direction information in order to fully describe the velocity of the object. For instance, you must describe an object's velocity as being 55 mi/hr, east. This is one of the essential differences between speed and velocity. Speed is a scalar quantity and does not keep track of direction; velocity is a vector quantity and is direction aware.
+
+ 
+
+Determining the Direction of the Velocity Vector
+The task of describing the direction of the velocity vector is easy. The direction of the velocity vector is simply the same as the direction that an object is moving. It would not matter whether the object is speeding up or slowing down. If an object is moving rightwards, then its velocity is described as being rightwards. If an object is moving downwards, then its velocity is described as being downwards. So an airplane moving towards the west with a speed of 300 mi/hr has a velocity of 300 mi/hr, west. Note that speed has no direction (it is a scalar) and the velocity at any instant is simply the speed value with a direction.
+ 
+
+ 
+
+
+
+ 
+Calculating Average Speed and Average Velocity
+As an object moves, it often undergoes changes in speed. For example, during an average trip to school, there are many changes in speed. Rather than the speed-o-meter maintaining a steady reading, the needle constantly moves up and down to reflect the stopping and starting and the accelerating and decelerating. One instant, the car may be moving at 50 mi/hr and another instant, it might be stopped (i.e., 0 mi/hr). Yet during the trip to school the person might average 32 mi/hr. The average speed during an entire motion can be thought of as the average of all speedometer readings. If the speedometer readings could be collected at 1-second intervals (or 0.1-second intervals or ... ) and then averaged together, the average speed could be determined. Now that would be a lot of work. And fortunately, there is a shortcut. Read on.
+
+
+ 
+The average speed during the course of a motion is often computed using the following formula:
+
+In contrast, the average velocity is often computed using this formula
+
+
+Let's begin implementing our understanding of these formulas with the following problem:
+
+Q: While on vacation, Lisa Carr traveled a total distance of 440 miles. Her trip took 8 hours. What was her average speed?
+
+To compute her average speed, we simply divide the distance of travel by the time of travel.
+
+
+That was easy! Lisa Carr averaged a speed of 55 miles per hour. She may not have been traveling at a constant speed of 55 mi/hr. She undoubtedly, was stopped at some instant in time (perhaps for a bathroom break or for lunch) and she probably was going 65 mi/hr at other instants in time. Yet, she averaged a speed of 55 miles per hour. The above formula represents a shortcut method of determining the average speed of an object.
+
+ 
+
+
+Average Speed versus Instantaneous Speed
+Since a moving object often changes its speed during its motion, it is common to distinguish between the average speed and the instantaneous speed. The distinction is as follows.
+
+Instantaneous Speed - the speed at any given instant in time.
+Average Speed - the average of all instantaneous speeds; found simply by a distance/time ratio.
+You might think of the instantaneous speed as the speed that the speedometer reads at any given instant in time and the average speed as the average of all the speedometer readings during the course of the trip. Since the task of averaging speedometer readings would be quite complicated (and maybe even dangerous), the average speed is more commonly calculated as the distance/time ratio.
+
+Moving objects don't always travel with erratic and changing speeds. Occasionally, an object will move at a steady rate with a constant speed. That is, the object will cover the same distance every regular interval of time. For instance, a cross-country runner might be running with a constant speed of 6 m/s in a straight line for several minutes. If her speed is constant, then the distance traveled every second is the same. The runner would cover a distance of 6 meters every second. If we could measure her position (distance from an arbitrary starting point) each second, then we would note that the position would be changing by 6 meters each second. This would be in stark contrast to an object that is changing its speed. An object with a changing speed would be moving a different distance each second. The data tables below depict objects with constant and changing speed.
+
+
+Now let's consider the motion of that physics teacher again. The physics teacher walks 4 meters East, 2 meters South, 4 meters West, and finally 2 meters North. The entire motion lasted for 24 seconds. Determine the average speed and the average velocity.
+
+
+The physics teacher walked a distance of 12 meters in 24 seconds; thus, her average speed was 0.50 m/s. However, since her displacement is 0 meters, her average velocity is 0 m/s. Remember that the displacement refers to the change in position and the velocity is based upon this position change. In this case of the teacher's motion, there is a position change of 0 meters and thus an average velocity of 0 m/s.
+
+Here is another example similar to what was seen before in the discussion of distance and displacement. The diagram below shows the position of a cross-country skier at various times. At each of the indicated times, the skier turns around and reverses the direction of travel. In other words, the skier moves from A to B to C to D.
+
+The final mathematical quantity discussed in Lesson 1 is acceleration. An often confused quantity, acceleration has a meaning much different than the meaning associated with it by sports announcers and other individuals. The definition of acceleration is:
+
+Acceleration is a vector quantity that is defined as the rate at which an object changes its velocity. An object is accelerating if it is changing its velocity.
+ Sports announcers will occasionally say that a person is accelerating if he/she is moving fast. Yet acceleration has nothing to do with going fast. A person can be moving very fast and still not be accelerating. Acceleration has to do with changing how fast an object is moving. If an object is not changing its velocity, then the object is not accelerating. The data at the right are representative of a northward-moving accelerating object. The velocity is changing over the course of time. In fact, the velocity is changing by a constant amount - 10 m/s - in each second of time. Anytime an object's velocity is changing, the object is said to be accelerating; it has an acceleration.
+
+
+ 
+The Meaning of Constant Acceleration
+Sometimes an accelerating object will change its velocity by the same amount each second. As mentioned in the previous paragraph, the data table above show an object changing its velocity by 10 m/s in each consecutive second. This is referred to as a constant acceleration since the velocity is changing by a constant amount each second. An object with a constant acceleration should not be confused with an object with a constant velocity. Don't be fooled! If an object is changing its velocity -whether by a constant amount or a varying amount - then it is an accelerating object. And an object with a constant velocity is not accelerating. The data tables below depict motions of objects with a constant acceleration and a changing acceleration. Note that each object has a changing velocity.
+
+
+
+Since accelerating objects are constantly changing their velocity, one can say that the distance traveled/time is not a constant value. A falling object for instance usually accelerates as it falls. If we were to observe the motion of a free-falling object (free fall motion will be discussed in detail later), we would observe that the object averages a velocity of approximately 5 m/s in the first second, approximately 15 m/s in the second second, approximately 25 m/s in the third second, approximately 35 m/s in the fourth second, etc. Our free-falling object would be constantly accelerating. Given these average velocity values during each consecutive 1-second time interval, we could say that the object would fall 5 meters in the first second, 15 meters in the second second (for a total distance of 20 meters), 25 meters in the third second (for a total distance of 45 meters), 35 meters in the fourth second (for a total distance of 80 meters after four seconds). These numbers are summarized in the table below.
+ 
+
+Time
+Interval	Velocity Change
+During Interval	Ave. Velocity
+During Interval	Distance Traveled
+During Interval	Total Distance Traveled from
+0 s to End of Interval
+0 – 1.0 s	0 to ~10 m/s	~5 m/s	~5 m	~5 m
+1.0 – 2.0 s	~10 to 20 m/s	~15 m/s	~15 m	~20 m
+2.0 – 3.0 s	~20 to 30 m/s	~25 m/s	~25 m	~45 m
+3.0 – 4.0 s	~30 to 40 m/s	~35 m/s	~35 m	~80 m  
+Note: The ~ symbol as used here means approximately.
+ 
+
+This discussion illustrates that a free-falling object that is accelerating at a constant rate will cover different distances in each consecutive second. Further analysis of the first and last columns of the data above reveal that there is a square relationship between the total distance traveled and the time of travel for an object starting from rest and moving with a constant acceleration. The total distance traveled is directly proportional to the square of the time. As such, if an object travels for twice the time, it will cover four times (2^2) the distance; the total distance traveled after two seconds is four times the total distance traveled after one second. If an object travels for three times the time, then it will cover nine times (3^2) the distance; the distance traveled after three seconds is nine times the distance traveled after one second. Finally, if an object travels for four times the time, then it will cover 16 times (4^2) the distance; the distance traveled after four seconds is 16 times the distance traveled after one second. For objects with a constant acceleration, the distance of travel is directly proportional to the square of the time of travel.
+
+ 
+
+Calculating the Average Acceleration
+The average acceleration (a) of any object over a given interval of time (t) can be calculated using the equation
+
+
+This equation can be used to calculate the acceleration of the object whose motion is depicted by the velocity-time data table above. The velocity-time data in the table shows that the object has an acceleration of 10 m/s/s. The calculation is shown below.
+
+
+ Acceleration values are expressed in units of velocity/time. Typical acceleration units include the following:
+
+m/s/s
+mi/hr/s
+km/hr/s
+m/s2
+
+These units may seem a little awkward to a beginning physics student. Yet they are very reasonable units when you begin to consider the definition and equation for acceleration. The reason for the units becomes obvious upon examination of the acceleration equation.
+
+
+Since acceleration is a velocity change over a time, the units on acceleration are velocity units divided by time units - thus (m/s)/s or (mi/hr)/s. The (m/s)/s unit can be mathematically simplified to m/s2.
+
+ 
+
+The Direction of the Acceleration Vector
+Since acceleration is a vector quantity, it has a direction associated with it. The direction of the acceleration vector depends on two things:
+
+whether the object is speeding up or slowing down
+whether the object is moving in the + or - direction
+ The general principle for determining the acceleation is:
+
+If an object is slowing down, then its acceleration is in the opposite direction of its motion.
+This general principle can be applied to determine whether the sign of the acceleration of an object is positive or negative, right or left, up or down, etc. Consider the two data tables below. In each case, the acceleration of the object is in the positive direction. In Example A, the object is moving in the positive direction (i.e., has a positive velocity) and is speeding up. When an object is speeding up, the acceleration is in the same direction as the velocity. Thus, this object has a positive acceleration. In Example B, the object is moving in the negative direction (i.e., has a negative velocity) and is slowing down. According to our general principle, when an object is slowing down, the acceleration is in the opposite direction as the velocity. Thus, this object also has a positive acceleration.
+
+
+This same general principle can be applied to the motion of the objects represented in the two data tables below. In each case, the acceleration of the object is in the negative direction. In Example C, the object is moving in the positive direction (i.e., has a positive velocity) and is slowing down. According to our principle, when an object is slowing down, the acceleration is in the opposite direction as the velocity. Thus, this object has a negative acceleration. In Example D, the object is moving in the negative direction (i.e., has a negative velocity) and is speeding up. When an object is speeding up, the acceleration is in the same direction as the velocity. Thus, this object also has a negative acceleration.
+
+
+
+
+Observe the use of positive and negative as used in the discussion above (Examples A - D). In physics, the use of positive and negative always has a physical meaning. It is more than a mere mathematical symbol. As used here to describe the velocity and the acceleration of a moving object, positive and negative describe a direction. Both velocity and acceleration are vector quantities and a full description of the quantity demands the use of a directional adjective. North, south, east, west, right, left, up and down are all directional adjectives. Physics often borrows from mathematics and uses the + and - symbols as directional adjectives. Consistent with the mathematical convention used on number lines and graphs, positive often means to the right or up and negative often means to the left or down. So to say that an object has a negative acceleration as in Examples C and D is to simply say that its acceleration is to the left or down (or in whatever direction has been defined as negative). Negative accelerations do not refer acceleration values that are less than 0. An acceleration of -2 m/s/s is an acceleration with a magnitude of 2 m/s/s that is directed in the negative direction.
+
+Throughout The Physics Classroom Tutorial, there is a persistent appeal to your ability to represent physical concepts in a visual manner. You will quickly notice that this effort to provide visual representation of physical concepts permeates much of the discussion in The Physics Classroom Tutorial. The world that we study in physics is a physical world - a world that we can see. And if we can see it, we certainly ought to visualize it. And if we seek to understand it, then that understanding ought to involve visual representations. So as you continue your pursuit of physics understanding, always be mindful of your ability (or lack of ability) to visually represent it. Monitor your study and learning habits, asking if your knowledge has become abstracted to a series of vocabulary words that have (at least in your own mind) no relation to the physical world which it seeks to describe. Your understanding of physics should be intimately tied to the physical world as demonstrated by your visual images.
+Like the study of all of physics, our study of 1-dimensional kinematics will be concerned with the multiple means by which the motion of objects can be represented. Such means include the use of words, the use of graphs, the use of numbers, the use of equations, and the use of diagrams. Lesson 2 focuses on the use of diagrams to describe motion. The two most commonly used types of diagrams used to describe the motion of objects are:
+
+Ticker Tape Diagrams
+Vector Diagrams
+Begin cultivating your visualization skills early in the course. Spend some time on the rest of Lesson 2, seeking to connect the visuals and graphics with the words and the physical reality. And as you proceed through the remainder of the unit 1 lessons, continue to make these same connections.
+
+A common way of analyzing the motion of objects in physics labs is to perform a ticker tape analysis. A long tape is attached to a moving object and threaded through a device that places a tick upon the tape at regular intervals of time - say every 0.10 second. As the object moves, it drags the tape through the "ticker," thus leaving a trail of dots. The trail of dots provides a history of the object's motion and therefore a representation of the object's motion.
+
+
+The distance between dots on a ticker tape represents the object's position change during that time interval. A large distance between dots indicates that the object was moving fast during that time interval. A small distance between dots means the object was moving slow during that time interval. Ticker tapes for a fast- and slow-moving object are depicted below.
+
+
+The analysis of a ticker tape diagram will also reveal if the object is moving with a constant velocity or accelerating. A changing distance between dots indicates a changing velocity and thus an acceleration. A constant distance between dots represents a constant velocity and therefore no acceleration. Ticker tapes for objects moving with a constant velocity and with an accelerated motion are shown below.
+
+
+And so ticker tape diagrams provide one more means of representing various features of the motion of objects.
+
+ 
+
+
+ 
+ 
+We Would Like to Suggest ...
+Sometimes it isn't enough to just read about it. You have to interact with it! And that's exactly what you do when you use one of The Physics Classroom's Interactives. We would like to suggest that you combine the reading of this page with the use of our Name That Motion Interactive. It is found in the Physics Interactive section and allows a learner to apply concepts of speed, velocity, acceleration and ticker tape diagrams.
+
+Vector diagrams are diagrams that depict the direction and relative magnitude of a vector quantity by a vector arrow. Vector diagrams can be used to describe the velocity of a moving object during its motion. For example, a vector diagram could be used to represent the motion of a car moving down the road.
+
+
+In a vector diagram, the magnitude of a vector quantity is represented by the size of the vector arrow. If the size of the arrow in each consecutive frame of the vector diagram is the same, then the magnitude of that vector is constant. The diagrams below depict the velocity of a car during its motion. In the top diagram, the size of the velocity vector is constant, so the diagram is depicting a motion of constant velocity. In the bottom diagram, the size of the velocity vector is increasing, so the diagram is depicting a motion with increasing velocity - i.e., an acceleration.
+
+Our study of 1-dimensional kinematics has been concerned with the multiple means by which the motion of objects can be represented. Such means include the use of words, the use of diagrams, the use of numbers, the use of equations, and the use of graphs. Lesson 3 focuses on the use of position vs. time graphs to describe motion. As we will learn, the specific features of the motion of objects are demonstrated by the shape and the slope of the lines on a position vs. time graph. The first part of this lesson involves a study of the relationship between the shape of a p-t graph and the motion of the object.
+
+
+ 
+
+Contrasting a Constant and a Changing Velocity
+To begin, consider a car moving with a constant, rightward (+) velocity - say of +10 m/s.
+
+
+If the position-time data for such a car were graphed, then the resulting graph would look like the graph at the right. Note that a motion described as a constant, positive velocity results in a line of constant and positive slope when plotted as a position-time graph.
+
+Now consider a car moving with a rightward (+), changing velocity - that is, a car that is moving rightward but speeding up or accelerating.
+
+
+If the position-time data for such a car were graphed, then the resulting graph would look like the graph at the right. Note that a motion described as a changing, positive velocity results in a line of changing and positive slope when plotted as a position-time graph.
+
+The position vs. time graphs for the two types of motion - constant velocity and changing velocity (acceleration) - are depicted as follows.
+
+Constant Velocity
+Positive Velocity	Positive Velocity
+Changing Velocity (acceleration)
+	
+
+ 
+ 
+ 
+The Importance of Slope
+The shapes of the position versus time graphs for these two basic types of motion - constant velocity motion and accelerated motion (i.e., changing velocity) - reveal an important principle. The principle is that the slope of the line on a position-time graph reveals useful information about the velocity of the object. It is often said, "As the slope goes, so goes the velocity." Whatever characteristics the velocity has, the slope will exhibit the same (and vice versa). If the velocity is constant, then the slope is constant (i.e., a straight line). If the velocity is changing, then the slope is changing (i.e., a curved line). If the velocity is positive, then the slope is positive (i.e., moving upwards and to the right). This very principle can be extended to any motion conceivable.
+
+
+ 
+
+Contrasting a Slow and a Fast Motion
+Consider the graphs below as example applications of this principle concerning the slope of the line on a position versus time graph. The graph on the left is representative of an object that is moving with a positive velocity (as denoted by the positive slope), a constant velocity (as denoted by the constant slope) and a small velocity (as denoted by the small slope). The graph on the right has similar features - there is a constant, positive velocity (as denoted by the constant, positive slope). However, the slope of the graph on the right is larger than that on the left. This larger slope is indicative of a larger velocity. The object represented by the graph on the right is traveling faster than the object represented by the graph on the left. The principle of slope can be used to extract relevant motion characteristics from a position vs. time graph. As the slope goes, so goes the velocity.
+
+Slow, Rightward(+)
+Constant Velocity	Fast, Rightward(+)
+Constant Velocity
+	
+Consider the graphs below as another application of this principle of slope. The graph on the left is representative of an object that is moving with a negative velocity (as denoted by the negative slope), a constant velocity (as denoted by the constant slope) and a small velocity (as denoted by the small slope). The graph on the right has similar features - there is a constant, negative velocity (as denoted by the constant, negative slope). However, the slope of the graph on the right is larger than that on the left. Once more, this larger slope is indicative of a larger velocity. The object represented by the graph on the right is traveling faster than the object represented by the graph on the left.
+
+Slow, Leftward(-)
+Constant Velocity	Fast, Leftward(-)
+Constant Velocity
+	
+
+
+
+ 
+ 
+
+Representing an Accelerated Motion
+As a final application of this principle of slope, consider the two graphs below. Both graphs show plotted points forming a curved line. Curved lines have changing slope; they may start with a very small slope and begin curving sharply (either upwards or downwards) towards a large slope. In either case, the curved line of changing slope is a sign of accelerated motion (i.e., changing velocity). Applying the principle of slope to the graph on the left, one would conclude that the object depicted by the graph is moving with a negative velocity (since the slope is negative ). Furthermore, the object is starting with a small velocity (the slope starts out with a small slope) and finishes with a large velocity (the slope becomes large). That would mean that this object is moving in the negative direction and speeding up (the small velocity turns into a larger velocity). This is an example of negative acceleration - moving in the negative direction and speeding up. The graph on the right also depicts an object with negative velocity (since there is a negative slope). The object begins with a high velocity (the slope is initially large) and finishes with a small velocity (since the slope becomes smaller). So this object is moving in the negative direction and slowing down. This is an example of positive acceleration.
+
+Negative (-) Velocity
+Slow to Fast	Leftward (-) Velocity
+Fast to Slow
+	
+The principle of slope is an incredibly useful principle for extracting relevant information about the motion of objects as described by their position vs. time graph. Once you've practiced the principle a few times, it becomes a very natural means of analyzing position-time graphs.
+
+See Animations of Various Motions with Accompanying Graphs
+
+
+
+ 
+Investigate!
+The widget below plots the position-time plot for an object with specified characteristics. The top widget plots the motion for an object moving with a constant velocity. The bottom wideget plots the motion for an accelerating object. Simply enter the specified values and the widget then plots the line with position on the vertical axis and time on the horizontal axis. Be sure to observe the difference between the constant velocity plot and the accelerated motion plot.
+
+
+
+
+Vector diagrams can be used to represent any vector quantity. In future studies, vector diagrams will be used to represent a variety of physical quantities such as acceleration, force, and momentum. Be familiar with the concept of using a vector arrow to represent the direction and relative size of a quantity. It will become a very important representation of an object's motion as we proceed further in our studies of the physics of motion.
+
+Our study of 1-dimensional kinematics has been concerned with the multiple means by which the motion of objects can be represented. Such means include the use of words, the use of diagrams, the use of numbers, the use of equations, and the use of graphs. Lesson 4 focuses on the use of velocity versus time graphs to describe motion. As we will learn, the specific features of the motion of objects are demonstrated by the shape and the slope of the lines on a velocity vs. time graph. The first part of this lesson involves a study of the relationship between the shape of a v-t graph and the motion of the object.
+
+ 
+
+Constant Velocity versus Changing Velocity
+Consider a car moving with a constant, rightward (+) velocity - say of +10 m/s. As learned in an earlier lesson, a car moving with a constant velocity is a car with zero acceleration.
+
+
+If the velocity-time data for such a car were graphed, then the resulting graph would look like the graph at the right. Note that a motion described as a constant, positive velocity results in a line of zero slope (a horizontal line has zero slope) when plotted as a velocity-time graph. Furthermore, only positive velocity values are plotted, corresponding to a motion with positive velocity.
+
+Now consider a car moving with a rightward (+), changing velocity - that is, a car that is moving rightward but speeding up or accelerating. Since the car is moving in the positive direction and speeding up, the car is said to have a positive acceleration.
+
+
+If the velocity-time data for such a car were graphed, then the resulting graph would look like the graph at the right. Note that a motion described as a changing, positive velocity results in a sloped line when plotted as a velocity-time graph. The slope of the line is positive, corresponding to the positive acceleration. Furthermore, only positive velocity values are plotted, corresponding to a motion with positive velocity.
+
+The velocity vs. time graphs for the two types of motion - constant velocity and changing velocity (acceleration) - can be summarized as follows.
+
+Positive Velocity
+Zero Acceleration	Positive Velocity
+Positive Acceleration
+	 
+ 
+ 
+ 
+The Importance of Slope
+The shapes of the velocity vs. time graphs for these two basic types of motion - constant velocity motion and accelerated motion (i.e., changing velocity) - reveal an important principle. The principle is that the slope of the line on a velocity-time graph reveals useful information about the acceleration of the object. If the acceleration is zero, then the slope is zero (i.e., a horizontal line). If the acceleration is positive, then the slope is positive (i.e., an upward sloping line). If the acceleration is negative, then the slope is negative (i.e., a downward sloping line). This very principle can be extended to any conceivable motion.
+
+The slope of a velocity-time graph reveals information about an object's acceleration. But how can one tell whether the object is moving in the positive direction (i.e., positive velocity) or in the negative direction (i.e., negative velocity)? And how can one tell if the object is speeding up or slowing down?
+
+As discussed in the previous part of Lesson 4, the shape of a velocity versus time graph reveals pertinent information about an object's acceleration. For example, if the acceleration is zero, then the velocity-time graph is a horizontal line (i.e., the slope is zero). If the acceleration is positive, then the line is an upward sloping line (i.e., the slope is positive). If the acceleration is negative, then the velocity-time graph is a downward sloping line (i.e., the slope is negative). If the acceleration is great, then the line slopes up steeply (i.e., the slope is great). This principle can be extended to any motion conceivable. Thus the shape of the line on the graph (horizontal, sloped, steeply sloped, mildly sloped, etc.) is descriptive of the object's motion. In this part of the lesson, we will examine how the actual slope value of any straight line on a velocity-time graph is the acceleration of the object.
+
+ 
+
+Analyzing a Constant Velocity Motion
+Consider a car moving with a constant velocity of +10 m/s. A car moving with a constant velocity has an acceleration of 0 m/s/s.
+
+
+The velocity-time data and graph would look like the graph below. Note that the line on the graph is horizontal. That is the slope of the line is 0 m/s/s. In this case, it is obvious that the slope of the line (0 m/s/s) is the same as the acceleration (0 m/s/s) of the car.
+
+Time
+(s)	Velocity
+(m/s)
+0	10
+1	10
+2	10
+3	10
+4	10
+5	10	
+So in this case, the slope of the line is equal to the acceleration of the velocity-time graph. Now we will examine a few other graphs to see if this is a principle that is true of all velocity versus time graphs.
+
+ 
+
+Analyzing a Changing Velocity Motion
+Now consider a car moving with a changing velocity. A car with a changing velocity will have an acceleration.
+
+
+The velocity-time data for this motion show that the car has an acceleration value of 10 m/s/s. (In Lesson 6, we will learn how to relate position-time data such as that in the diagram above to an acceleration value.) The graph of this velocity-time data would look like the graph below. Note that the line on the graph is diagonal - that is, it has a slope. The slope of the line can be calculated as 10 m/s/s. It is obvious once again that the slope of the line (10 m/s/s) is the same as the acceleration (10 m/s/s) of the car.
+
+ 
+
+
+ 
+Analyzing a Two-Stage Motion
+In both instances above - the constant velocity motion and the changing velocity motion, the slope of the line was equal to the acceleration. As a last illustration, we will examine a more complex case - a two-stage motion. Consider the motion of a car that first travels with a constant velocity (a=0 m/s/s) of 2 m/s for four seconds and then accelerates at a rate of +2 m/s/s for four seconds. That is, in the first four seconds, the car is not changing its velocity (the velocity remains at 2 m/s) and then the car increases its velocity by 2 m/s per second over the next four seconds. The velocity-time data and graph are displayed below. Observe the relationship between the slope of the line during each four-second interval and the corresponding acceleration value.
+
+A motion such as the one above further illustrates the important principle: the slope of the line on a velocity-time graph is equal to the acceleration of the object. This principle can be used for all velocity-time in order to determine the numerical value of the acceleration. A single example is given below in the Check Your Understanding section.
+
+ 
+Investigate!
+The widget below plots the velocity-time plot for an accelerating object. Simply enter the acceleration value, the intial velocity, and the time over which the motion occurs. The widget then plots the line with velocity on the vertical axis and time on the horizontal axis.
+
+Try experimenting with different signs for velocity and acceleration. For instance, try a positive initial velocity and a positive acceleration. Then, contrast that with a positive initial velocity and a negative acceleration.
+
+ 
+
+Positive Velocity versus Negative Velocity
+The answers to these questions hinge on one's ability to read a graph. Since the graph is a velocity-time graph, the velocity would be positive whenever the line lies in the positive region (above the x-axis) of the graph. Similarly, the velocity would be negative whenever the line lies in the negative region (below the x-axis) of the graph. As learned in Lesson 1, a positive velocity means the object is moving in the positive direction; and a negative velocity means the object is moving in the negative direction. So one knows an object is moving in the positive direction if the line is located in the positive region of the graph (whether it is sloping up or sloping down). And one knows that an object is moving in the negative direction if the line is located in the negative region of the graph (whether it is sloping up or sloping down). And finally, if a line crosses over the x-axis from the positive region to the negative region of the graph (or vice versa), then the object has changed directions.
+
+As discussed in a previous part of Lesson 4, the shape of a velocity vs. time graph reveals pertinent information about an object's acceleration. For example, if the acceleration is zero, then the velocity-time graph is a horizontal line - having a slope of zero. If the acceleration is positive, then the line is an upward sloping line - having a positive slope. If the acceleration is negative, then the velocity-time graph is a downward sloping line - having a negative slope. If the acceleration is great, then the line slopes up steeply - having a large slope. The shape of the line on the graph (horizontal, sloped, steeply sloped, mildly sloped, etc.) is descriptive of the object's motion. This principle can be extended to any motion conceivable. In this part of the lesson, we will examine how the principle applies to a variety of types of motion. In each diagram below, a short verbal description of a motion is given (e.g., "constant, rightward velocity") and an accompanying motion diagram is shown. Finally, the corresponding velocity-time graph is sketched and an explanation is given. Near the end of this page, a few practice problems are given.
+
+It was learned earlier in Lesson 4 that the slope of the line on a velocity versus time graph is equal to the acceleration of the object. If the object is moving with an acceleration of +4 m/s/s (i.e., changing its velocity by 4 m/s per second), then the slope of the line will be +4 m/s/s. If the object is moving with an acceleration of -8 m/s/s, then the slope of the line will be -8 m/s/s. If the object has a velocity of 0 m/s, then the slope of the line will be 0 m/s. Because of its importance, a student of physics must have a good understanding of how to calculate the slope of a line. In this part of the lesson, the method for determining the slope of a line on a velocity-time graph will be discussed.
+
+Let's begin by considering the velocity versus time graph below.
+
+
+The line is sloping upwards to the right. But mathematically, by how much does it slope upwards for every 1 second along the horizontal (time) axis? To answer this question we must use the slope equation.
+
+
+
+
+
+ 
+Using the Slope Equation
+The slope equation says that the slope of a line is found by determining the amount of rise of the line between any two points divided by the amount of run of the line between the same two points. A method for carrying out the calculation is
+
+Pick two points on the line and determine their coordinates.
+Determine the difference in y-coordinates for these two points (rise).
+Determine the difference in x-coordinates for these two points (run).
+Divide the difference in y-coordinates by the difference in x-coordinates (rise/run or slope).
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+Investigate!
+The widget below plots the velocity-time plot for an accelerating object. Simply enter the acceleration value, the intial velocity, and the time over which the motion occurs. The widget then plots the line with velocity on the vertical axis and time on the horizontal axis.
+
+Try experimenting with different signs for velocity and acceleration. For instance, try a positive initial velocity and a positive acceleration. Then, contrast that with a positive initial velocity and a negative acceleration.
+ 
+ 
+
+ 
+Speeding Up versus Slowing Down
+Now how can one tell if the object is speeding up or slowing down? Speeding up means that the magnitude (or numerical value) of the velocity is getting large. For instance, an object with a velocity changing from +3 m/s to + 9 m/s is speeding up. Similarly, an object with a velocity changing from -3 m/s to -9 m/s is also speeding up. In each case, the magnitude of the velocity (the number itself, not the sign or direction) is increasing; the speed is getting bigger. Given this fact, one would believe that an object is speeding up if the line on a velocity-time graph is changing from near the 0-velocity point to a location further away from the 0-velocity point. That is, if the line is getting further away from the x-axis (the 0-velocity point), then the object is speeding up. And conversely, if the line is approaching the x-axis, then the object is slowing down.
+
+ A free falling object is an object that is falling under the sole influence of gravity. Any object that is being acted upon only by the force of gravity is said to be in a state of free fall. There are two important motion characteristics that are true of free-falling objects:
+
+Free-falling objects do not encounter air resistance.
+All free-falling objects (on Earth) accelerate downwards at a rate of 9.8 m/s/s (often approximated as 10 m/s/s for back-of-the-envelope calculations)
+ Because free-falling objects are accelerating downwards at a rate of 9.8 m/s/s, a ticker tape trace or dot diagram of its motion would depict an acceleration. The dot diagram at the right depicts the acceleration of a free-falling object. The position of the object at regular time intervals - say, every 0.1 second - is shown. The fact that the distance that the object travels every interval of time is increasing is a sure sign that the ball is speeding up as it falls downward. Recall from an earlier lesson, that if an object travels downward and speeds up, then its acceleration is downward.
+
+Free-fall acceleration is often witnessed in a physics classroom by means of an ever-popular strobe light demonstration. The room is darkened and a jug full of water is connected by a tube to a medicine dropper. The dropper drips water and the strobe illuminates the falling droplets at a regular rate - say once every 0.2 seconds. Instead of seeing a stream of water free-falling from the medicine dropper, several consecutive drops with increasing separation distance are seen. The pattern of drops resembles the dot diagram shown in the graphic at the right.
+
+
+It was learned in the previous part of this lesson that a free-falling object is an object that is falling under the sole influence of gravity. A free-falling object has an acceleration of 9.8 m/s/s, downward (on Earth). This numerical value for the acceleration of a free-falling object is such an important value that it is given a special name. It is known as the acceleration of gravity - the acceleration for any object moving under the sole influence of gravity. A matter of fact, this quantity known as the acceleration of gravity is such an important quantity that physicists have a special symbol to denote it - the symbol g. The numerical value for the acceleration of gravity is most accurately known as 9.8 m/s/s. There are slight variations in this numerical value (to the second decimal place) that are dependent primarily upon on altitude. We will occasionally use the approximated value of 10 m/s/s in The Physics Classroom Tutorial in order to reduce the complexity of the many mathematical tasks that we will perform with this number. By so doing, we will be able to better focus on the conceptual nature of physics without too much of a sacrifice in numerical accuracy.
+
+Early in Lesson 1 it was mentioned that there are a variety of means of describing the motion of objects. One such means of describing the motion of objects is through the use of graphs - position versus time and velocity vs. time graphs. In this part of Lesson 5, the motion of a free-falling motion will be represented using these two basic types of graphs.
+
+ 
+
+Representing Free Fall by Position-Time Graphs
+A position versus time graph for a free-falling object is shown below.
+
+
+Observe that the line on the graph curves. As learned earlier, a curved line on a position versus time graph signifies an accelerated motion. Since a free-falling object is undergoing an acceleration (g = 9.8 m/s/s), it would be expected that its position-time graph would be curved. A further look at the position-time graph reveals that the object starts with a small velocity (slow) and finishes with a large velocity (fast). Since the slope of any position vs. time graph is the velocity of the object (as learned in Lesson 3), the small initial slope indicates a small initial velocity and the large final slope indicates a large final velocity. Finally, the negative slope of the line indicates a negative (i.e., downward) velocity.
+
+
+
+ 
+ 
+
+Representing Free Fall by Velocity-Time Graphs
+A velocity versus time graph for a free-falling object is shown below.
+
+
+Observe that the line on the graph is a straight, diagonal line. As learned earlier, a diagonal line on a velocity versus time graph signifies an accelerated motion. Since a free-falling object is undergoing an acceleration (g = 9,8 m/s/s, downward), it would be expected that its velocity-time graph would be diagonal. A further look at the velocity-time graph reveals that the object starts with a zero velocity (as read from the graph) and finishes with a large, negative velocity; that is, the object is moving in the negative direction and speeding up. An object that is moving in the negative direction and speeding up is said to have a negative acceleration (if necessary, review the vector nature of acceleration). Since the slope of any velocity versus time graph is the acceleration of the object (as learned in Lesson 4), the constant, negative slope indicates a constant, negative acceleration. This analysis of the slope on the graph is consistent with the motion of a free-falling object - an object moving with a constant acceleration of 9.8 m/s/s in the downward direction.
+Free-falling objects are in a state of acceleration. Specifically, they are accelerating at a rate of 9.8 m/s/s. This is to say that the velocity of a free-falling object is changing by 9.8 m/s every second. If dropped from a position of rest, the object will be traveling 9.8 m/s (approximately 10 m/s) at the end of the first second, 19.6 m/s (approximately 20 m/s) at the end of the second second, 29.4 m/s (approximately 30 m/s) at the end of the third second, etc. Thus, the velocity of a free-falling object that has been dropped from a position of rest is dependent upon the time that it has fallen. The formula for determining the velocity of a falling object after a time of t seconds is
+vf = g * t
+
+(dropped from rest)
+ 
+
+where g is the acceleration of gravity. The value for g on Earth is 9.8 m/s/s. The above equation can be used to calculate the velocity of the object after any given amount of time when dropped from rest. Example calculations for the velocity of a free-falling object after six and eight seconds are shown below.
+Earlier in this lesson, it was stated that the acceleration of a free-falling object (on earth) is 9.8 m/s/s. This value (known as the acceleration of gravity) is the same for all free-falling objects regardless of how long they have been falling, or whether they were initially dropped from rest or thrown up into the air. Yet the questions are often asked "doesn't a more massive object accelerate at a greater rate than a less massive object?" "Wouldn't an elephant free-fall faster than a mouse?" This question is a reasonable inquiry that is probably based in part upon personal observations made of falling objects in the physical world. After all, nearly everyone has observed the difference in the rate of fall of a single piece of paper (or similar object) and a textbook. The two objects clearly travel to the ground at different rates - with the more massive book falling faster.
+The answer to the question (doesn't a more massive object accelerate at a greater rate than a less massive object?) is absolutely not! That is, absolutely not if we are considering the specific type of falling motion known as free-fall. Free-fall is the motion of objects that move under the sole influence of gravity; free-falling objects do not encounter air resistance. More massive objects will only fall faster if there is an appreciable amount of air resistance present.
+
+The actual explanation of why all objects accelerate at the same rate involves the concepts of force and mass. The details will be discussed in Unit 2 of The Physics Classroom. At that time, you will learn that the acceleration of an object is directly proportional to force and inversely proportional to mass. Increasing force tends to increase acceleration while increasing mass tends to decrease acceleration. Thus, the greater force on more massive objects is offset by the inverse influence of greater mass. Subsequently, all objects free fall at the same rate of acceleration, regardless of their mass.
+
+The goal of this first unit of The Physics Classroom has been to investigate the variety of means by which the motion of objects can be described. The variety of representations that we have investigated includes verbal representations, pictorial representations, numerical representations, and graphical representations (position-time graphs and velocity-time graphs). In Lesson 6, we will investigate the use of equations to describe and represent the motion of objects. These equations are known as kinematic equations.
+
+There are a variety of quantities associated with the motion of objects - displacement (and distance), velocity (and speed), acceleration, and time. Knowledge of each of these quantities provides descriptive information about an object's motion. For example, if a car is known to move with a constant velocity of 22.0 m/s, North for 12.0 seconds for a northward displacement of 264 meters, then the motion of the car is fully described. And if a second car is known to accelerate from a rest position with an eastward acceleration of 3.0 m/s2 for a time of 8.0 seconds, providing a final velocity of 24 m/s, East and an eastward displacement of 96 meters, then the motion of this car is fully described. These two statements provide a complete description of the motion of an object. However, such completeness is not always known. It is often the case that only a few parameters of an object's motion are known, while the rest are unknown. For example as you approach the stoplight, you might know that your car has a velocity of 22 m/s, East and is capable of a skidding acceleration of 8.0 m/s2, West. However you do not know the displacement that your car would experience if you were to slam on your brakes and skid to a stop; and you do not know the time required to skid to a stop. In such an instance as this, the unknown parameters can be determined using physics principles and mathematical equations (the kinematic equations).
+
+
+ 
+
+The BIG 4
+The kinematic equations are a set of four equations that can be utilized to predict unknown information about an object's motion if other information is known. The equations can be utilized for any motion that can be described as being either a constant velocity motion (an acceleration of 0 m/s/s) or a constant acceleration motion. They can never be used over any time period during which the acceleration is changing. Each of the kinematic equations include four variables. If the values of three of the four variables are known, then the value of the fourth variable can be calculated. In this manner, the kinematic equations provide a useful means of predicting information about an object's motion if other information is known. For example, if the acceleration value and the initial and final velocity values of a skidding car is known, then the displacement of the car and the time can be predicted using the kinematic equations. Lesson 6 of this unit will focus upon the use of the kinematic equations to predict the numerical values of unknown quantities for an object's motion.
+
+The four kinematic equations that describe an object's motion are:
+
+
+There are a variety of symbols used in the above equations. Each symbol has its own specific meaning. The symbol d stands for the displacement of the object. The symbol t stands for the time for which the object moved. The symbol a stands for the acceleration of the object. And the symbol v stands for the velocity of the object; a subscript of i after the v (as in vi) indicates that the velocity value is the initial velocity value and a subscript of f (as in vf) indicates that the velocity value is the final velocity value.
+
+Each of these four equations appropriately describes the mathematical relationship between the parameters of an object's motion. As such, they can be used to predict unknown information about an object's motion if other information is known. In the next part of Lesson 6 we will investigate the process of doing this.
+The four kinematic equations that describe the mathematical relationship between the parameters that describe an object's motion were introduced in the previous part of Lesson 6. The four kinematic equations are:
+
+
+In the above equations, the symbol d stands for the displacement of the object. The symbol t stands for the time for which the object moved. The symbol a stands for the acceleration of the object. And the symbol v stands for the instantaneous velocity of the object; a subscript of i after the v (as in vi) indicates that the velocity value is the initial velocity value and a subscript of f (as in vf) indicates that the velocity value is the final velocity value.
+
+ 
+
+Problem-Solving Strategy
+In this part of Lesson 6 we will investigate the process of using the equations to determine unknown information about an object's motion. The process involves the use of a problem-solving strategy that will be used throughout the course. The strategy involves the following steps:
+
+Construct an informative diagram of the physical situation.
+Identify and list the given information in variable form.
+Identify and list the unknown information in variable form.
+Identify and list the equation that will be used to determine unknown information from known information.
+Substitute known values into the equation and use appropriate algebraic steps to solve for the unknown information.
+Check your answer to insure that it is reasonable and mathematically correct.
+The use of this problem-solving strategy in the solution of the following problem is modeled in Examples A and B below.
+
+
+ 
+
+Example Problem A
+Ima Hurryin is approaching a stoplight moving with a velocity of +30.0 m/s. The light turns yellow, and Ima applies the brakes and skids to a stop. If Ima's acceleration is -8.00 m/s2, then determine the displacement of the car during the skidding process. (Note that the direction of the velocity and the acceleration vectors are denoted by a + and a - sign.)
+
+The solution to this problem begins by the construction of an informative diagram of the physical situation. This is shown below. The second step involves the identification and listing of known information in variable form. Note that the vf value can be inferred to be 0 m/s since Ima's car comes to a stop. The initial velocity (vi) of the car is +30.0 m/s since this is the velocity at the beginning of the motion (the skidding motion). And the acceleration (a) of the car is given as - 8.00 m/s2. (Always pay careful attention to the + and - signs for the given quantities.) The next step of the strategy involves the listing of the unknown (or desired) information in variable form. In this case, the problem requests information about the displacement of the car. So d is the unknown quantity. The results of the first three steps are shown in the table below.
+ 
+
+Diagram:	Given:	Find:
+	vi = +30.0 m/s
+vf = 0 m/s
+
+a = - 8.00 m/s2	d = ??  
+The next step of the strategy involves identifying a kinematic equation that would allow you to determine the unknown quantity. There are four kinematic equations to choose from. In general, you will always choose the equation that contains the three known and the one unknown variable. In this specific case, the three known variables and the one unknown variable are vf, vi, a, and d. Thus, you will look for an equation that has these four variables listed in it. An inspection of the four equations above reveals that the equation on the top right contains all four variables.
+
+ vf2 = vi2 + 2 • a • d
+ 
+Once the equation is identified and written down, the next step of the strategy involves substituting known values into the equation and using proper algebraic steps to solve for the unknown information. This step is shown below.
+
+(0 m/s)2 = (30.0 m/s)2 + 2 • (-8.00 m/s2) • d
+
+0 m2/s2 = 900 m2/s2 + (-16.0 m/s2) • d
+
+(16.0 m/s2) • d = 900 m2/s2 - 0 m2/s2
+
+(16.0 m/s2)*d = 900 m2/s2
+
+d = (900 m2/s2)/ (16.0 m/s2)
+
+d = (900 m2/s2)/ (16.0 m/s2)
+
+d = 56.3 m
+
+The solution above reveals that the car will skid a distance of 56.3 meters. (Note that this value is rounded to the third digit.)
+
+The last step of the problem-solving strategy involves checking the answer to assure that it is both reasonable and accurate. The value seems reasonable enough. It takes a car a considerable distance to skid from 30.0 m/s (approximately 65 mi/hr) to a stop. The calculated distance is approximately one-half a football field, making this a very reasonable skidding distance. Checking for accuracy involves substituting the calculated value back into the equation for displacement and insuring that the left side of the equation is equal to the right side of the equation. Indeed it is!
+
+
+
+ 
+
+Example Problem B
+Ben Rushin is waiting at a stoplight. When it finally turns green, Ben accelerated from rest at a rate of a 6.00 m/s2 for a time of 4.10 seconds. Determine the displacement of Ben's car during this time period.
+
+Once more, the solution to this problem begins by the construction of an informative diagram of the physical situation. This is shown below. The second step of the strategy involves the identification and listing of known information in variable form. Note that the vi value can be inferred to be 0 m/s since Ben's car is initially at rest. The acceleration (a) of the car is 6.00 m/s2. And the time (t) is given as 4.10 s. The next step of the strategy involves the listing of the unknown (or desired) information in variable form. In this case, the problem requests information about the displacement of the car. So d is the unknown information. The results of the first three steps are shown in the table below.
+
+The next step of the strategy involves identifying a kinematic equation that would allow you to determine the unknown quantity. There are four kinematic equations to choose from. Again, you will always search for an equation that contains the three known variables and the one unknown variable. In this specific case, the three known variables and the one unknown variable are t, vi, a, and d. An inspection of the four equations above reveals that the equation on the top left contains all four variables.
+ 
+
+
+Once the equation is identified and written down, the next step of the strategy involves substituting known values into the equation and using proper algebraic steps to solve for the unknown information. This step is shown below.
+
+
+The solution above reveals that the car will travel a distance of 50.4 meters. (Note that this value is rounded to the third digit.)
+
+The last step of the problem-solving strategy involves checking the answer to assure that it is both reasonable and accurate. The value seems reasonable enough. A car with an acceleration of 6.00 m/s/s will reach a speed of approximately 24 m/s (approximately 50 mi/hr) in 4.10 s. The distance over which such a car would be displaced during this time period would be approximately one-half a football field, making this a very reasonable distance. Checking for accuracy involves substituting the calculated value back into the equation for displacement and insuring that the left side of the equation is equal to the right side of the equation. Indeed it is!
+
+The two example problems above illustrate how the kinematic equations can be combined with a simple problem-solving strategy to predict unknown motion parameters for a moving object. Provided that three motion parameters are known, any of the remaining values can be determined. In the next part of Lesson 6, we will see how this strategy can be applied to free fall situations. Or if interested, you can try some practice problems and check your answer against the given solutions.
+
+As mentioned in Lesson 5, a free-falling object is an object that is falling under the sole influence of gravity. That is to say that any object that is moving and being acted upon only be the force of gravity is said to be "in a state of free fall." Such an object will experience a downward acceleration of 9.8 m/s/s. Whether the object is falling downward or rising upward towards its peak, if it is under the sole influence of gravity, then its acceleration value is 9.8 m/s/s.
+
+Like any moving object, the motion of an object in free fall can be described by four kinematic equations. The kinematic equations that describe any object's motion are:
+
+
+The symbols in the above equation have a specific meaning: the symbol d stands for the displacement; the symbol t stands for the time; the symbol a stands for the acceleration of the object; the symbol vi stands for the initial velocity value; and the symbol vf stands for the final velocity.
+ 
+
+ 
+
+Applying Free Fall Concepts to Problem-Solving
+There are a few conceptual characteristics of free fall motion that will be of value when using the equations to analyze free fall motion. These concepts are described as follows:
+
+An object in free fall experiences an acceleration of -9.8 m/s/s. (The - sign indicates a downward acceleration.) Whether explicitly stated or not, the value of the acceleration in the kinematic equations is -9.8 m/s/s for any freely falling object.
+If an object is merely dropped (as opposed to being thrown) from an elevated height, then the initial velocity of the object is 0 m/s.
+If an object is projected upwards in a perfectly vertical direction, then it will slow down as it rises upward. The instant at which it reaches the peak of its trajectory, its velocity is 0 m/s. This value can be used as one of the motion parameters in the kinematic equations; for example, the final velocity (vf) after traveling to the peak would be assigned a value of 0 m/s.
+If an object is projected upwards in a perfectly vertical direction, then the velocity at which it is projected is equal in magnitude and opposite in sign to the velocity that it has when it returns to the same height. That is, a ball projected vertically with an upward velocity of +30 m/s will have a downward velocity of -30 m/s when it returns to the same height.
+These four principles and the four kinematic equations can be combined to solve problems involving the motion of free falling objects. The two examples below illustrate application of free fall principles to kinematic problem-solving. In each example, the problem solving strategy that was introduced earlier in this lesson will be utilized.
+ 
+
+Example Problem A
+Luke Autbeloe drops a pile of roof shingles from the top of a roof located 8.52 meters above the ground. Determine the time required for the shingles to reach the ground.
+
+The solution to this problem begins by the construction of an informative diagram of the physical situation. This is shown below. The second step involves the identification and listing of known information in variable form. You might note that in the statement of the problem, there is only one piece of numerical information explicitly stated: 8.52 meters. The displacement (d) of the shingles is -8.52 m. (The - sign indicates that the displacement is downward). The remaining information must be extracted from the problem statement based upon your understanding of the above principles. For example, the vi value can be inferred to be 0 m/s since the shingles are dropped (released from rest; see note above). And the acceleration (a) of the shingles can be inferred to be -9.8 m/s2 since the shingles are free-falling (see note above). (Always pay careful attention to the + and - signs for the given quantities.) The next step of the solution involves the listing of the unknown (or desired) information in variable form. In this case, the problem requests information about the time of fall. So t is the unknown quantity. The results of the first three steps are shown in the table below.
+
+
+The next step involves identifying a kinematic equation that allows you to determine the unknown quantity. There are four kinematic equations to choose from. In general, you will always choose the equation that contains the three known and the one unknown variable. In this specific case, the three known variables and the one unknown variable are d, vi, a, and t. Thus, you will look for an equation that has these four variables listed in it. An inspection of the four equations above reveals that the equation on the top left contains all four variables.
+
+Once the equation is identified and written down, the next step involves substituting known values into the equation and using proper algebraic steps to solve for the unknown information. This step is shown below.
+
+
+
+The solution above reveals that the shingles will fall for a time of 1.32 seconds before hitting the ground. (Note that this value is rounded to the third digit.)
+
+The last step of the problem-solving strategy involves checking the answer to assure that it is both reasonable and accurate. The value seems reasonable enough. The shingles are falling a distance of approximately 10 yards (1 meter is pretty close to 1 yard); it seems that an answer between 1 and 2 seconds would be highly reasonable. The calculated time easily falls within this range of reasonability. Checking for accuracy involves substituting the calculated value back into the equation for time and insuring that the left side of the equation is equal to the right side of the equation. Indeed it is!
+
+ 
+
+Example Problem B
+Rex Things throws his mother's crystal vase vertically upwards with an initial velocity of 26.2 m/s. Determine the height to which the vase will rise above its initial height.
+
+Once more, the solution to this problem begins by the construction of an informative diagram of the physical situation. This is shown below. The second step involves the identification and listing of known information in variable form. You might note that in the statement of the problem, there is only one piece of numerical information explicitly stated: 26.2 m/s. The initial velocity (vi) of the vase is +26.2 m/s. (The + sign indicates that the initial velocity is an upwards velocity). The remaining information must be extracted from the problem statement based upon your understanding of the above principles. Note that the vf value can be inferred to be 0 m/s since the final state of the vase is the peak of its trajectory (see note above). The acceleration (a) of the vase is -9.8 m/s2 (see note above). The next step involves the listing of the unknown (or desired) information in variable form. In this case, the problem requests information about the displacement of the vase (the height to which it rises above its starting height). So d is the unknown information. The results of the first three steps are shown in the table below.
+
+
+The next step involves identifying a kinematic equation that would allow you to determine the unknown quantity. There are four kinematic equations to choose from. Again, you will always search for an equation that contains the three known variables and the one unknown variable. In this specific case, the three known variables and the one unknown variable are vi, vf, a, and d. An inspection of the four equations above reveals that the equation on the top right contains all four variables.
+
+ 
+
+
+Once the equation is identified and written down, the next step involves substituting known values into the equation and using proper algebraic steps to solve for the unknown information. This step is shown below.
+
+
+The solution above reveals that the vase will travel upwards for a displacement of 35.0 meters before reaching its peak. (Note that this value is rounded to the third digit.)
+
+The last step of the problem-solving strategy involves checking the answer to assure that it is both reasonable and accurate. The value seems reasonable enough. The vase is thrown with a speed of approximately 50 mi/hr (merely approximate 1 m/s to be equivalent to 2 mi/hr). Such a throw will never make it further than one football field in height (approximately 100 m), yet will surely make it past the 10-yard line (approximately 10 meters). The calculated answer certainly falls within this range of reasonability. Checking for accuracy involves substituting the calculated value back into the equation for displacement and insuring that the left side of the equation is equal to the right side of the equation. Indeed it is!
+
+Kinematic equations provide a useful means of determining the value of an unknown motion parameter if three motion parameters are known. In the case of a free-fall motion, the acceleration is often known. And in many cases, another motion parameter can be inferred through a solid knowledge of some basic kinematic principles. The next part of Lesson 6 provides a wealth of practice problems with answers and solutions.
+
+Lesson 4 of this unit at The Physics Classroom focused on the use of velocity-time graphs to describe the motion of objects. In that Lesson, it was emphasized that the slope of the line on a velocity-time graph is equal to the acceleration of the object and the area between the line and the time axis is equal to the displacement of the object. Thus, velocity-time graphs can be used to determine numerical values and relationships between the quantities displacement (d), velocity (v), acceleration (a) and time (t). In Lesson 6, the focus has been upon the use of four kinematic equations to describe the motion of objects and to predict the numerical values of one of the four motion parameters - displacement (d), velocity (v), acceleration (a) and time (t). Thus, there are now two methods available to solve problems involving the numerical relationships between displacement, velocity, acceleration and time. In this part of Lesson 6, we will investigate the relationships between these two methods.
+ 
+
+Example Problem - Graphical Solution
+Consider an object that moves with a constant velocity of +5 m/s for a time period of 5 seconds and then accelerates to a final velocity of +15 m/s over the next 5 seconds. Such a verbal description of motion can be represented by a velocity-time graph. The graph is shown below.
+
+
+
+ 
+The horizontal section of the graph depicts a constant velocity motion, consistent with the verbal description. The positively sloped (i.e., upward sloped) section of the graph depicts a positive acceleration, consistent with the verbal description of an object moving in the positive direction and speeding up from 5 m/s to 15 m/s. The slope of the line can be computed using the rise over run ratio. Between 5 and 10 seconds, the line rises from 5 m/s to 15 m/s and runs from 5 s to 10 s. This is a total rise of +10 m/s and a total run of 5 s. Thus, the slope (rise/run ratio) is (10 m/s)/(5 s) = 2 m/s2. Using the velocity-time graph, the acceleration of the object is determined to be 2 m/s2 during the last five seconds of the object's motion. The displacement of the object can also be determined using the velocity-time graph. The area between the line on the graph and the time-axis is representative of the displacement; this area assumes the shape of a trapezoid. As discussed in Lesson 4, the area of a trapezoid can be equated to the area of a triangle lying on top of the area of a rectangle. This is illustrated in the diagram below.
+
+
+
+ 
+The total area is then the area of the rectangle plus the area of the triangle. The calculation of these areas is shown below.
+
+
+The total area (rectangle plus triangle) is equal to 75 m. Thus the displacement of the object is 75 meters during the 10 seconds of motion.
+
+
+The above discussion illustrates how a graphical representation of an object's motion can be used to extract numerical information about the object's acceleration and displacement. Once constructed, the velocity-time graph can be used to determine the velocity of the object at any given instant during the 10 seconds of motion. For example, the velocity of the object at 7 seconds can be determined by reading the y-coordinate value at the x-coordinate of 7 s. Thus, velocity-time graphs can be used to reveal (or determine) numerical values and relationships between the quantities displacement (d), velocity (v), acceleration (a) and time (t) for any given motion.
+
+ 
+
+Example Problem - Solution Using Kinematic Equation
+Now let's consider the same verbal description and the corresponding analysis using kinematic equations. The verbal description of the motion was:
+
+An object that moves with a constant velocity of +5 m/s for a time period of 5 seconds and then accelerates to a final velocity of +15 m/s over the next 5 seconds
+Kinematic equations can be applied to any motion for which the acceleration is constant. Since this motion has two separate acceleration stages, any kinematic analysis requires that the motion parameters for the first 5 seconds not be mixed with the motion parameters for the last 5 seconds. The table below lists the given motion parameters.
+
+
+Note that the acceleration during the first 5 seconds is listed as 0 m/s2 despite the fact that it is not explicitly stated. The phrase constant velocity indicates a motion with a 0 acceleration. The acceleration of the object during the last 5 seconds can be calculated using the following kinematic equation.
+
+vf = vi + a*t
+The substitution and algebra are shown here.
+
+This value for the acceleration of the object during the time from 5 s to 10 s is consistent with the value determined from the slope of the line on the velocity-time graph.
+
+The displacement of the object during the entire 10 seconds can also be calculated using kinematic equations. Since these 10 seconds include two distinctly different acceleration intervals, the calculations for each interval must be done separately. This is shown below.
+
+The total displacement during the first 10 seconds of motion is 75 meters, consistent with the value determined from the area under the line on the velocity-time graph.
+
+The analysis of this simple motion illustrates the value of these two representations of motion - velocity-time graph and kinematic equations. Each representation can be utilized to extract numerical information about unknown motion quantities for any given motion. The examples below provide useful opportunity for those requiring additional practice.
+
+ 
+
+Check Your Understanding
+1. Rennata Gas is driving through town at 25.0 m/s and begins to accelerate at a constant rate of -1.0 m/s2. Eventually Rennata comes to a complete stop.
+a. Represent Rennata's accelerated motion by sketching a velocity-time graph. Use the velocity-time graph to determine this distance.
+b. Use kinematic equations to calculate the distance that Rennata travels while decelerating.
+ 
+See Graph and Answer
+
+ 
+
+2. Otto Emissions is driving his car at 25.0 m/s. Otto accelerates at 2.0 m/s2 for 5 seconds. Otto then maintains a constant velocity for 10.0 more seconds.
+a. Represent the 15 seconds of Otto Emission's motion by sketching a velocity-time graph. Use the graph to determine the distance that Otto traveled during the entire 15 seconds.
+b. Finally, break the motion into its two segments and use kinematic equations to calculate the total distance traveled during the entire 15 seconds.
+ 
+See Graph and Answer
+ 
+ 
+
+3. Luke Autbeloe, a human cannonball artist, is shot off the edge of a cliff with an initial upward velocity of +40.0 m/s. Luke accelerates with a constant downward acceleration of -10.0 m/s2 (an approximate value of the acceleration of gravity).
+a. Sketch a velocity-time graph for the first 8 seconds of Luke's motion.
+b. Use kinematic equations to determine the time required for Luke Autbeloe to drop back to the original height of the cliff. Indicate this time on the graph.
+ 
+See Graph and Answer
+
+
+ 
+
+4. Chuck Wagon travels with a constant velocity of 0.5 mile/minute for 10 minutes. Chuck then decelerates at -.25 mile/min2 for 2 minutes.
+a. Sketch a velocity-time graph for Chuck Wagon's motion. Use the velocity-time graph to determine the total distance traveled by Chuck Wagon during the 12 minutes of motion.
+b. Finally, break the motion into its two segments and use kinematic equations to determine the total distance traveled by Chuck Wagon.
+ 
+See Graph and Answer
+ 
+
+5. Vera Side is speeding down the interstate at 45.0 m/s. Vera looks ahead and observes an accident that results in a pileup in the middle of the road. By the time Vera slams on the breaks, she is 50.0 m from the pileup. She slows down at a rate of -10.0 m/s2.
+a. Construct a velocity-time plot for Vera Side's motion. Use the plot to determine the distance that Vera would travel prior to reaching a complete stop (if she did not collide with the pileup).
+b. Use kinematic equations to determine the distance that Vera Side would travel prior to reaching a complete stop (if she did not collide with the pileup). Will Vera hit the cars in the pileup? That is, will Vera travel more than 50.0 meters?
+ 
+See Graph and Answer
+
+
+ 
+
+6. Earl E. Bird travels 30.0 m/s for 10.0 seconds. He then accelerates at 3.00 m/s2 for 5.00 seconds.
+a.Construct a velocity-time graph for Earl E. Bird's motion. Use the plot to determine the total distance traveled.
+b. Divide the motion of the Earl E. Bird into the two time segments and use kinematic equations to calculate the total displacement.
+ 
