@@ -1,0 +1,30 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+import math
+
+import tensorflow as tf
+
+TEXT_SIZE = 140
+FEELINGS_SIZE = 10
+
+vocabulary_size = 75000
+embedding_size = 128
+
+graph = tf.Graph()
+with graph.as_default():
+ inputs = tf.placeholder(tf.int32, shape=[1,136])
+ with tf.device('/cpu:0'):
+  embeddings = tf.Variable(tf.random_uniform([vocabulary_size, embedding_size], -1.0, 1.0))
+  embed = tf.nn.embedding_lookup(embeddings, inputs)
+  print(embed.get_shape())
+  filter1 = tf.zeros([4,128,128])
+  conv1 = tf.nn.conv1d(embed, filter1, 2, 'VALID')
+  print(conv1.get_shape())
+  conv2 = tf.nn.conv1d(conv1, filter1, 2, 'VALID')
+  print(conv2.get_shape())
+  conv3 = tf.nn.conv1d(conv2, filter1, 2, 'VALID')
+  print(conv3.get_shape())
+  conv4 = tf.nn.conv1d(conv3, filter1, 2, 'VALID')
+  pritn(conv4.getshape())

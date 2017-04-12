@@ -187,7 +187,7 @@ with graph.as_default():
   init = tf.global_variables_initializer()
 
 # Step 5: Begin training.
-num_steps = 800001
+num_steps = 2001
 
 with tf.Session(graph=graph) as session:
   # We must initialize all variables before we use them.
@@ -202,34 +202,35 @@ with tf.Session(graph=graph) as session:
 
     # We perform one update step by evaluating the optimizer op (including it
     # in the list of returned values for session.run()
-    _, loss_val = session.run([optimizer, loss], feed_dict=feed_dict)
-    average_loss += loss_val
-
-    if step % 2000 == 0:
-      if step > 0:
-        average_loss /= 2000
-      # The average loss is an estimate of the loss over the last 2000 batches.
-      print('Average loss at step ', step, ': ', average_loss)
-      average_loss = 0
-
-    # Note that this is expensive (~20% slowdown if computed every 500 steps)
-    if step % 10000 == 0:
-      sim = similarity.eval()
-      for i in xrange(valid_size):
-        valid_word = reverse_dictionary[valid_examples[i]]
-        top_k = 8  # number of nearest neighbors
-        nearest = (-sim[i, :]).argsort()[1:top_k + 1]
-        log_str = 'Nearest to %s:' % valid_word
-        for k in xrange(top_k):
-          close_word = reverse_dictionary[nearest[k]]
-          log_str = '%s %s,' % (log_str, close_word)
-        print(log_str)
-  final_embeddings = normalized_embeddings.eval()
+    _ = session.run([optimizer], feed_dict=feed_dict)
+    print(step)
+#  average_loss += loss_val
+#
+#   if step % 2000 == 0:
+#     if step > 0:
+#       average_loss /= 2000
+#     # The average loss is an estimate of the loss over the last 2000 batches.
+#     print('Average loss at step ', step, ': ', average_loss)
+#     average_loss = 0
+#
+#   # Note that this is expensive (~20% slowdown if computed every 500 steps)
+#   if step % 10000 == 0:
+#     sim = similarity.eval()
+#     for i in xrange(valid_size):
+#       valid_word = reverse_dictionary[valid_examples[i]]
+#       top_k = 8  # number of nearest neighbors
+#       nearest = (-sim[i, :]).argsort()[1:top_k + 1]
+#       log_str = 'Nearest to %s:' % valid_word
+#       for k in xrange(top_k):
+#         close_word = reverse_dictionary[nearest[k]]
+#         log_str = '%s %s,' % (log_str, close_word)
+#       print(log_str)
+    final_embeddings = normalized_embeddings.eval()
 
 # Step 6: Visualize the embeddings.
 
 
-def plot_with_labels(low_dim_embs, labels, filename='tsne_phys3.png'):
+def plot_with_labels(low_dim_embs, labels, filename='test.png'):
   assert low_dim_embs.shape[0] >= len(labels), 'More labels than embeddings'
   plt.figure(figsize=(18, 18))  # in inches
   for i, label in enumerate(labels):
