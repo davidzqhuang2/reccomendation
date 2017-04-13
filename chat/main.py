@@ -108,3 +108,10 @@ with graph.as_default():
 
   value = tf.squeeze(pool_f)
   print(value.get_shape())
+
+  mood = tf.string_to_number("Mood: ")
+  v_loss = tf.square(value-mood)
+  
+  optimizer_value = tf.train.GradientDescentOptimizer(1.0).minimize(v_loss)
+
+  p_loss = v_loss
